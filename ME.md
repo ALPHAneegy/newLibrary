@@ -488,7 +488,7 @@ function Update:Window(patchText)
         titleLabel.Position = UDim2.new(0, 30, 0.5, 0)
         titleLabel.Size = UDim2.new(0, 100, 0, 30)
         titleLabel.Font = Enum.Font.GothamSemibold
-        titleLabel.Text = tabName
+        titleLabel.Text = ""
         titleLabel.Visible = false
         titleLabel.AnchorPoint = Vector2.new(0, 0.5)
         titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
