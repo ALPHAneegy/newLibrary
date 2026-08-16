@@ -492,12 +492,12 @@ function Update:Window(patchText)
         titleLabel.Visible = false
         titleLabel.AnchorPoint = Vector2.new(0, 0.5)
         titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-        titleLabel.TextTransparency = 0.4
+        titleLabel.TextTransparency = 1
         titleLabel.TextSize = 13
         titleLabel.TextXAlignment = Enum.TextXAlignment.Left
 
         local iconLabel = Instance.new("ImageLabel")
-        iconLabel.Name = "IDK"
+        iconLabel.Name = ""
         iconLabel.Parent = tabButton
         iconLabel.BackgroundTransparency = 1
         iconLabel.ImageTransparency = 0.3
@@ -617,7 +617,7 @@ function Update:Window(patchText)
             local state = defaultValue and true or false
 
             local container = Instance.new("TextButton")
-            container.Name = "Button"
+            container.Name = ""
             container.Parent = page
             container.BackgroundColor3 = _G.Primary
             container.BackgroundTransparency = 0.8
