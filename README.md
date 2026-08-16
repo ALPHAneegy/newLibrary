@@ -64,7 +64,7 @@ local function createToggleIcon()
     btn.ImageColor3 = _G.Primary
     btn.ImageTransparency = 0.1
     btn.BackgroundTransparency = 0.1
-    btn.Image = 'https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=12515433950'
+    btn.Image = 'https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=89080043654016'
 
     local stroke = Instance.new("UIStroke")
     stroke.Color = _G.Primary
@@ -189,7 +189,7 @@ function Update:Window(patchText)
     title.Position = UDim2.new(0, 15, 0.5, 0)
     title.AnchorPoint = Vector2.new(0, 0.5)
     title.Font = Enum.Font.GothamBold
-    title.Text = "LUNORA HUB |"
+    title.Text = "Szoo PAID |"
     title.TextSize = 15
     title.TextColor3 = Color3.fromRGB(255, 255, 255)
     title.TextXAlignment = Enum.TextXAlignment.Left
@@ -216,7 +216,7 @@ function Update:Window(patchText)
     hideBtn.Position = UDim2.new(1, -10, 0.5, 0)
     hideBtn.Size = UDim2.new(0, 25, 0, 25)
     hideBtn.BackgroundTransparency = 1
-    hideBtn.Image = 'https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=83731725578821'
+    hideBtn.Image = 'https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=89080043654016'
     hideBtn.ImageColor3 = Color3.fromRGB(245, 245, 245)
     local hideCorner = Instance.new("UICorner")
     hideCorner.CornerRadius = UDim.new(0, 3)
