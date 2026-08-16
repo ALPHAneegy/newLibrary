@@ -63,7 +63,7 @@ local function createToggleIcon()
     btn.BackgroundColor3 = _G.Dark
     btn.ImageColor3 = _G.Primary
     btn.ImageTransparency = 0.1
-    btn.BackgroundTransparency = 0.1
+    btn.BackgroundTransparency = 1
     btn.Image = 'https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=89080043654016'
 
     local stroke = Instance.new("UIStroke")
