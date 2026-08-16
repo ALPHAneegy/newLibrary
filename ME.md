@@ -564,7 +564,7 @@ function Update:Window(patchText)
         -- Button (styled icon inside clickable area)
         function pageApi.Button(_, text, callback)
             local frame = Instance.new("Frame")
-            frame.Name = "Button"
+            frame.Name = ""
             frame.Parent = page
             frame.BackgroundColor3 = _G.Primary
             frame.BackgroundTransparency = 0.75
@@ -1234,7 +1234,7 @@ function Update:Window(patchText)
             function folderApi.Button(_, text, callback)
                 -- copy of pageApi.Button but parent = inner
                 local frame = Instance.new("Frame")
-                frame.Name = "Button"
+                frame.Name = ""
                 frame.Parent = inner
                 frame.BackgroundColor3 = _G.Primary
                 frame.BackgroundTransparency = 0.75
